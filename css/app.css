@@ -1,0 +1,99 @@
+:root {
+    --color: #DEAEA4;
+}
+body {
+    font-family: 'Merriweather', serif;
+    width: 80vw;
+    margin: auto;
+       
+}
+
+button {
+    background-color: white;
+    border: 2px solid var(--color);
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: small;
+}
+
+button:hover {
+    background-color: var(--color);
+}
+
+img {
+    height: 100%;
+    width: auto;
+    margin: auto;
+    box-shadow: 2px 2px 3px grey;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    
+}
+ul {
+    padding: 0;
+    padding-top: 20px;
+}
+
+.content {
+    padding-left: 15vw;
+    line-height: 1.7;
+    
+}
+
+.focus {
+    border-bottom: 2px solid var(--color);
+}
+
+.list-head {
+    text-transform: capitalize;
+    text-align: left;
+    font-size: x-large;
+    padding-top: 20px;
+}
+.list-head::before {
+    content: "\2606"; /* white star */
+    padding-right: 10px;
+}
+.center {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.img-container {
+    height: 30vh;
+    width: auto;
+}
+
+
+.horizontal {
+    display: flex;
+}
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.one-fourth {
+    width: 25%;
+}
+.three-fourths {
+    width: 75%;
+}
+
+.menu {
+    position: sticky;
+    max-height: 100vh;
+    position: -webkit-sticky;
+    top: 0; /* required */
+}

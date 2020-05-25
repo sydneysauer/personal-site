@@ -3,7 +3,6 @@
 }
 body {
     font-family: 'Merriweather', serif;
-    width: 80vw;
     margin: auto;      
 }
 a {
@@ -40,6 +39,20 @@ h3 {
 
 i {
     font-size: x-large;
+}
+footer {
+    background-color:#bfbfbf;
+    padding: 30px;
+}
+
+.circle {
+    background: white;
+    border-radius: 50%;
+}
+
+.body {
+    width: 80vw;
+    margin: auto;
 }
 
 .hidden {
@@ -80,11 +93,12 @@ i {
 .content {
     padding-left: 10vw;
     line-height: 2.0;
-    
+    padding-bottom: 20vh; 
 }
 
 .contact > *{
     padding: 10px;
+    margin: 10px;
 }
 
 .focus {

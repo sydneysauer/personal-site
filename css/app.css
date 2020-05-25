@@ -42,6 +42,14 @@ i {
     font-size: x-large;
 }
 
+.hidden {
+    display: none;
+}
+
+.menuitem:hover {
+    color: black;
+}
+
 .headshot {
     border-radius: 50%;
     width: 75%;
@@ -58,6 +66,7 @@ i {
     padding-right: 20px;   
     padding-top: 20px;
     color: grey;
+    cursor: pointer;
 }
 
 .menu a {
@@ -122,4 +131,60 @@ i {
 
 .half {
     width: 50%;
+}
+.menu li.active {
+    color: black;
+}
+
+/* Animations */
+.fade-in {
+    animation: fadeOut ease 2s;
+    -webkit-animation: fadeOut ease 2s;
+    -moz-animation: fadeOut ease 2s;
+    -o-animation: fadeOut ease 2s;
+    -ms-animation: fadeOut ease 2s;
+  }
+  @keyframes fadeOut {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeOut {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeOut {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeOut {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeOut {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
 }

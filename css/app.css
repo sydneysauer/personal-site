@@ -92,7 +92,8 @@ footer {
 }
 
 .header {
-   padding-top: 10vh;
+   padding-top: 5vh;
+   align-items: center;
 }
 
 .menu li {
@@ -103,6 +104,7 @@ footer {
     padding-top: 20px;
     color: grey;
     cursor: pointer;
+    font-size: large;
 }
 
 .menu a {
@@ -130,14 +132,11 @@ footer {
 
 .list-head {
     text-transform: capitalize;
-    text-align: left;
+    text-align: center;
     font-size: x-large;
     padding-top: 20px;
 }
-.list-head::before {
-    content: "\2606"; /* white star */
-    padding-right: 10px;
-}
+
 .center {
     justify-content: center;
     align-content: center;
@@ -168,6 +167,11 @@ footer {
 
 .half {
     width: 50%;
+}
+.menu {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
 }
 .menu li.active {
     color: black;

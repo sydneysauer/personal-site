@@ -250,6 +250,12 @@ footer {
         margin: auto;
         text-align: center;
     }
+    .one-third {
+        width: 100%;
+    }
+    .half {
+        width: auto;
+    }
     .horizontal {
         flex-direction: column;
     }
@@ -270,5 +276,18 @@ footer {
         font-size: 40px;
         color: var(--color);
     }
+
+    .writing-card {
+        height: auto;
+    }
+
+    .mobile-sticky {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        background-color: white;
+        padding-bottom: 20px;
+    }
+    
 
   }

@@ -8,6 +8,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <script src="https://kit.fontawesome.com/49c7606d46.js"></script>
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/app.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather">
@@ -17,15 +18,16 @@
     <div class="body">
         <div class="horizontal center header">
             <div class="one-fourth">
-                <img src="img/square-headshot.jpg" class="headshot">
+                <img src="img/square-headshot.jpg" class="headshot mobile-hidden">
             </div>
-            <div class="one-fourth">               
+            <div class="one-fourth mobile-nav">               
                 <h1> Sydney Sauer </h1>
-                <p>Sophomore at Ohio State. Proud woman in computer science.</p>
+                <i class="fas fa-bars hidden mobile-shown"></i>
+                <p class="mobile-hidden">Sophomore at Ohio State. Proud woman in computer science.</p>
             </div>
         </div>
            
-        <ul class="horizontal menu center half">
+        <ul class="horizontal menu center half mobile-hidden fade-in">
             <li class="menuitem active">About</li>
             <li class="menuitem">Code</li>
             <li class="menuitem">Writing</li>
@@ -114,7 +116,7 @@
         </div> 
     </footer>
 
-  <script src="https://kit.fontawesome.com/49c7606d46.js"></script>
+  
   <script src="js/app.js"></script>
 </body>
 

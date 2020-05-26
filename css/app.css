@@ -177,6 +177,7 @@ footer {
     color: black;
 }
 
+
 /* Animations */
 .fade-in {
     animation: fadeOut ease 2s;
@@ -229,3 +230,45 @@ footer {
       opacity:1;
   }
 }
+
+@media only screen and (max-width: 600px) {
+    .mobile-hidden {
+        display: none;
+    }
+    .mobile-shown {
+        display: block;
+    }
+    .body {
+        width: 95vw;
+    }
+    .one-fourth {
+        width: 90%;
+    }
+    .three-fourths {
+        padding: 0;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .horizontal {
+        flex-direction: column;
+    }
+    footer .contact {
+        flex-direction: row;
+    }
+
+    .mobile-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+    }
+    h1 {
+        margin: 5px;
+    }
+    .fa-bars {
+        font-size: 40px;
+        color: var(--color);
+    }
+
+  }

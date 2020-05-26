@@ -21,6 +21,8 @@ menuLinks.forEach(link => link.addEventListener("click", function show() {
         }
     }
     resetLinks(menuLinks);
+    const menu = document.querySelector(".menu");
+    menu.classList.add("mobile-hidden");
     this.classList.add("active");
     
 }));
@@ -106,4 +108,11 @@ for (const piece of writing) {
         window.open(piece.link);
     });
 }
+
+// Mobile nav
+const mobileNav = document.querySelector(".fa-bars");
+mobileNav.addEventListener("click", function toggleMobile() {
+    const menu = document.querySelector(".menu");
+    menu.classList.toggle("mobile-hidden");
+});
 

@@ -45,6 +45,29 @@ footer {
     padding: 30px;
 }
 
+.fit {
+    height: 100%;
+    object-fit: cover;
+}
+.writing-card {
+    height: 20vh;
+    border: 2px solid #bfbfbf;
+    margin: 35px;
+    cursor: pointer;
+}
+.caption {
+    padding: 20px;
+}
+
+.caption > * {
+    line-height: 1.5;
+    text-align: center;
+}
+
+.one-third {
+    width: 33.3%;
+}
+
 .circle {
     background: white;
     border-radius: 50%;
